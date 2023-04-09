@@ -177,13 +177,15 @@ nav li {
     color: #181818;
     font-weight: 700;
     font-size: 35px;
+    margin-top: 130px;
 }
 
 .resume-content {
     display: flex;
     gap: 30px;
 }
-.resume-item{
+
+.resume-item {
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -210,4 +212,43 @@ nav li {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
+}
+
+.contact {
+    margin-top: 130px;
+    display: flex;
+    background: #FFF8F3;
+    gap: 100px;
+    padding: 50px 30px;
+}
+
+.contact-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+    padding-left: 30px 18px;
+    margin-bottom: 24px;
+}
+input{
+    height: 64px;
+}
+button{
+    margin-bottom: 30px;
 }
